@@ -19,7 +19,8 @@ from eav.fields import EavSlugField
 from django.core.files.base import ContentFile
 from django.contrib.auth.models import Group
 from django.conf import settings
-from rapidsms_httprouter.models import Message
+from rapidsms.router.db.models import Message
+#from rapidsms_httprouter.models import Message
 from picklefield.fields import PickledObjectField
 
 class XForm(models.Model):
